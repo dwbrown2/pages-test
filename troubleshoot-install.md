@@ -2,11 +2,11 @@
 
 Your clusters needs a default storage class for the Kubecost and Prometheus persistent volumes to be successfully attached.
 
-To check if this is done, you can run
+To check if a storage class exists, you can run
 
 ```kubectl get storageclass```
 
-You should see a storageclass name with (default) next to it. 
+You should see a storageclass name with (default) next to it as in this example. 
 
 <pre>
 NAME                PROVISIONER           AGE 
